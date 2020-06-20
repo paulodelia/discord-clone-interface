@@ -51,7 +51,7 @@ export const Button = styled.button<Props>`
     right: -4px;
 
     border-radius: 12px;
-    border: 4px solid var(--quaternary);
+    border: 4px solid var(--tertiary);
 
     text-align: right;
     font-size: 13px;
