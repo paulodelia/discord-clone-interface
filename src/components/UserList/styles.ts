@@ -37,7 +37,48 @@ export const Role = styled.span`
 `;
 
 export const User = styled.div`
+    display: flex;
+    align-items: center;
 
+    margin-top: 5px;
+    padding: 5px;
+
+    border-radius: 5px;
+    background: transparent;
+
+    transition: background .2s;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    > strong {
+        margin-left: 13px;
+        font-weight: 500;
+        color: var(--white);
+        opacity: 0.7;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    > span {
+        margin-left: 9px;
+
+        background-color: var(--discord);
+        color: var(--white);
+        border-radius: 4px;
+
+        padding: 4px 5px;
+
+        text-transform: uppercase;
+
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    cursor: pointer;
 `;
 
 export const Avatar = styled.div`
