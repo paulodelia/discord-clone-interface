@@ -31,7 +31,13 @@ export const Title = styled.div`
 `;
 
 export const Separator = styled.div`
+    width: 1px;
+    height: 24px;
 
+    background-color: var(--white);
+    opacity: 0.2;
+
+    margin: 0 13px;
 `;
 
 export const Description = styled.div`
