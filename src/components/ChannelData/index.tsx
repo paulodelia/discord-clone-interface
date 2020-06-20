@@ -9,7 +9,7 @@ const ChannelData: React.FC = () => {
 
             <InputWrapper>
                 <Input />
-                <InputIcon />
+                {/* <InputIcon /> */}
             </InputWrapper>
         </Container>
     );
