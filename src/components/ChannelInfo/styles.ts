@@ -22,7 +22,12 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const Title = styled.div`
-    
+    margin-left: 9px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: var(--white);
 `;
 
 export const Separator = styled.div`
