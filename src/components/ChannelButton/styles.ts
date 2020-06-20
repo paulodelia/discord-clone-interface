@@ -43,9 +43,33 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const InviteIcon = styled(PersonAdd)`
+    width: 16px;
+    height: 16px;
 
+    color: var(--symbol);
+    
+    transition: .2s;
+
+    &:hover {
+        color: var(--white);
+    }
+
+    cursor: pointer;
 `;
 
 export const SettingsIcon = styled(Settings)`
+    width: 16px;
+    height: 16px;
 
+    margin-left: 4px;
+
+    color: var(--symbol);
+    
+    transition: .2s;
+
+    &:hover {
+        color: var(--white);
+    }
+
+    cursor: pointer;
 `;
