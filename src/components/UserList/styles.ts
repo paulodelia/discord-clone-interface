@@ -27,8 +27,13 @@ export const Container = styled.div`
     }
 `;
 
-export const Role = styled.div`
+export const Role = styled.span`
+    margin-top: 20px;
 
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gray);
 `;
 
 export const User = styled.div`
