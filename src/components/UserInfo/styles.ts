@@ -30,7 +30,22 @@ export const Avatar = styled.div`
 `;
 
 export const UserData = styled.div`
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 8px;
 
+    > strong {
+        display: block;
+
+        font-size: 13px;
+        color: var(--white);
+    }
+
+    > span {
+        color: var(--gray);
+        font-size: 13px;
+    }
 `;
 
 export const Icons = styled.div`
