@@ -18,3 +18,10 @@ export const Container = styled.div`
     display: none;
   }
 `;
+
+export const Separator = styled.div`
+    width: 32px;
+    border-bottom: 2px solid var(--quaternary);
+
+    margin-bottom: 8px;
+`;
