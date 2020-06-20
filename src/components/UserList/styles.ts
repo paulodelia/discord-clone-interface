@@ -82,5 +82,15 @@ export const User = styled.div`
 `;
 
 export const Avatar = styled.div`
+    flex-shrink: 0;
 
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    background-color: var(--primary);
+
+    &.bot {
+        background-color: var(--mention-detail);
+    }
 `;
