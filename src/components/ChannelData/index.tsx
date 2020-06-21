@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
-import ChannelMessage from '../ChannelMessage';
+import ChannelMessage, { Mention } from '../ChannelMessage';
 
 const ChannelData: React.FC = () => {
     return (
@@ -13,7 +13,7 @@ const ChannelData: React.FC = () => {
                     content="React não é tão difícil que nem eu imaginava!"
                 />
                 
-                {/* <ChannelMessage 
+                <ChannelMessage 
                     author="Jhonson"
                     date="20/06/2020"
                     content={
@@ -21,7 +21,7 @@ const ChannelData: React.FC = () => {
                             <Mention>@Paulo D'Elia</Mention>, Bom noite!
                         </>
                     }
-                /> */}
+                />
             </Messages>
                 
             <InputWrapper>

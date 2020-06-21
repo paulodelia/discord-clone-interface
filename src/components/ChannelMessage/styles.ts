@@ -76,7 +76,16 @@ export const Header = styled.div`
 `;
 
 export const Content = styled.div`
-
+    text-align: left;
+    font-size: 16px;
+    color: var(--white);
 `;
 
-// export const Mention = styled.span``;
+export const Mention = styled.span`
+    color: var(--link);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
