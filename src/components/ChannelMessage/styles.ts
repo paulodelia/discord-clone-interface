@@ -23,7 +23,15 @@ export const Container = styled.div`
 `;
 
 export const Avatar = styled.div`
-    
+    width: 40px;
+    height: 40px;
+
+    background-color: var(--secondary);
+    border-radius: 50%;
+
+    &.bot {
+        background-color: var(--mention-detail);
+    }
 `;
 
 export const Message = styled.div`
