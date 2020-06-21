@@ -14,6 +14,7 @@ export const Container = styled.div`
   max-height: 100vh;
   overflow-y: scroll;
 
+  scrollbar-width: none;
   ::-webkit-scrollbar {
     display: none;
   }
