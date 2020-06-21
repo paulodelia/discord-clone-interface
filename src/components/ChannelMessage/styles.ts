@@ -35,6 +35,12 @@ export const Avatar = styled.div`
 `;
 
 export const Message = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 17px;
+
+    min-height: 40px;
 
 `;
 
