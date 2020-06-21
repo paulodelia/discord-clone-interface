@@ -45,7 +45,34 @@ export const Message = styled.div`
 `;
 
 export const Header = styled.div`
+    display: flex;
+    align-items: center;
 
+    > strong {
+        color: var(--white);
+        font-size: 18px;
+    }
+
+    > span {
+        margin-left: 6px;
+
+        background-color: var(--discord);
+        color: var(--white);
+        border-radius: 4px;
+
+        padding: 4px 5px;
+
+        text-transform: uppercase;
+
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    > time {
+        margin-left: 6px;
+        color: var(--gray);
+        font-size: 13px;
+    }
 `;
 
 export const Content = styled.div`
